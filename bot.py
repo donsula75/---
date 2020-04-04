@@ -26,4 +26,6 @@ async def on_member_remove(member):
     await channel.send(f'로블록스 대리점을 들려주셔서 감사합니다! {member.mention}')
     print("한명이 서버를 나감!")
 
-client.run('Njk1NzgyMTUzMjUzOTQ1MzY2.Xof_3w.vpmmjEu5wuFKxtvZe5EdwaCwaks')
+    
+access_token = os.environ["BOT_TOKEN"]
+client.run('access_token')
